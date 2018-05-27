@@ -1,0 +1,42 @@
+.background {
+  background-color: orange;
+}
+
+.introduction {
+  font-family: Nyala;
+  text-align: center;
+}
+
+.content {
+  font-family: Georgia;
+}
+
+.early-access {
+    background: lightblue; 
+    background-size: cover;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+
+.additional-info {
+  font-family: Helvetica;
+}
+
+.available-contents {
+  background: yellow;
+  font-family: Courier New;
+  text-align: center;
+}
+
+.websites {
+  background: greenyellow;
+  font-family: Segoe UI;
+}
+
+.profile-photo {
+  background: url(https://yt3.ggpht.com/a-/AJLlDp2_mepbzL0bY4x9IkAQJxytlV3V5WpkfM4Tow=s900-mo-c-c0xffffffff-rj-k-no);
+  background-size: contain;
+  height: 300px;
+  width: 300px;
+}
