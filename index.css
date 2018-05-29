@@ -1,5 +1,5 @@
 .background {
-  background-color: orange;
+  background-color:#ffa826;
 }
 
 .introduction {
@@ -35,8 +35,37 @@
 }
 
 .profile-photo {
-  background: url(https://yt3.ggpht.com/a-/AJLlDp2_mepbzL0bY4x9IkAQJxytlV3V5WpkfM4Tow=s900-mo-c-c0xffffffff-rj-k-no);
-  background-size: contain;
+  background-image: url(https://yt3.ggpht.com/a-/AJLlDp2_mepbzL0bY4x9IkAQJxytlV3V5WpkfM4Tow=s900-mo-c-c0xffffffff-rj-k-no);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
   height: 300px;
   width: 300px;
 }
+/*
+Button Menu below
+      v
+      v
+*/
+.menu { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.menu ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.menu ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s;
