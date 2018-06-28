@@ -1,0 +1,14 @@
+.background {
+  background-color: #dcebff;
+}
+
+.article {
+  margin-right: 500px;
+  padding: 80px 30px;
+}
+
+#link {
+  color:black;
+  padding: 10px;
+  background-color: #ff5454;
+}
