@@ -1,0 +1,54 @@
+body {
+    background-color: #ffb45a;
+    font-family: 'Raleway', sans-serif;
+}
+
+.watermark-background {
+  background: #f0f8ff;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.picture-watermark {
+ background-image: url(https://yt3.ggpht.com/a-/AJLlDp2_mepbzL0bY4x9IkAQJxytlV3V5WpkfM4Tow=s900-mo-c-c0xffffffff-rj-k-no);
+ display: block;
+ background-size: cover;
+ height: 100px;
+ width: 100px;
+  
+}
+
+.picture-watermark #watermark-title {
+ margin-left: 120px;
+ width: 400px;
+ height: 20px;
+ color: #ff3c3c;
+}
+
+.contents {
+  margin-right: 500px;
+}
+
+/*Menu Button(Under Maintenance)*/
+.menu { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.menu ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.menu ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+}
